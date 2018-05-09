@@ -1,0 +1,1680 @@
+/* HIDE/DISPLAY */
+
+.mobile {
+  display: none;
+}
+
+.site {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+/*************************************
+CONTAINERS
+**************************************/
+
+.inside {
+  margin: 10vh 0 0 10vw;
+}
+
+
+/*************************************
+TYPEWRITERS
+**************************************/
+
+h1 {
+  font-size: 50px
+}
+
+
+
+/*************************************
+LIST NORMALIZE
+**************************************/
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	padding: 5px 0;
+}
+
+
+
+/**************************************************
+FLOATS
+***************************************************/
+
+.container {
+  display: block;
+	width: 1150px;
+	height: auto;
+	margin: auto;
+}
+
+.clearFloat {
+	clear: both;
+	line-height: 0;
+	position: relative;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+  width: 47.5%;
+  margin-right: 5%;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+  width: 47.5%;
+}
+
+
+
+/**************************************************
+HEADER & NAV
+***************************************************/
+
+#headerBar {
+/*  background: orange;*/
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 25px 0;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+  white-space: nowrap;
+}
+
+#headerBar i {
+	font-size: 40px;
+}
+
+#headerBar .container {
+	width: 90% !important;
+}
+
+#headerBar nav {
+	width: 100%;
+	height: 90px;
+	display: block;
+	position: absolute;
+	top: -90px;
+}
+
+.opaceNav {
+  background: rgba(0, 0, 0, .1);
+}
+
+.orange-nav {
+	background: orange;
+}
+
+#headerBar nav a {
+	z-index: 2;
+  padding: 14px 25px;
+  color: white;
+}
+#headerBar nav a:hover {
+  border-bottom: 2px solid white;
+}
+.main-selected {
+  border-bottom: 2px solid white;
+}
+
+#home {
+  position: relative;
+}
+
+#headerBar:hover nav {
+	top: 0;
+}
+
+#headerBar nav ul {
+  float: right;
+	height: 90px;
+	width: auto;
+	padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#headerBar nav ul li {
+	display: block;
+	font-weight: bold;
+	list-style: none;
+	float: left;
+/*	padding: 14px 20px;*/
+}
+
+#headerBar nav ul li a {
+/*  font-size: 1vw;*/
+}
+
+#form_block {
+  color: white;
+}
+
+/************************************************************
+WELCOME
+*************************************************************/
+
+.welcome-parent {
+  display: table;
+  width: 100%;
+}
+
+.welcome-child {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh;
+}
+
+#welcome {
+/*	margin-top: 20%;*/
+}
+
+#welcome-title {
+  display: block;
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: 30px
+}
+
+.welcome-form p,
+.welcome-form select,
+.welcome-form button,
+.welcome-form option {
+  color: black;
+}
+
+.welcome-form p,
+.welcome-form select {
+  display: inline-block;
+  font-size: 2.5em;
+}
+
+.welcome-form select {
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#welcome button a {
+  color: white;
+  padding: 17px 60px;
+  transition: .5s;
+  border: 1px solid orange;
+}
+
+#welcome button {
+  background: orange;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: auto;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+#welcome button a:hover {
+  background: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+
+
+/************************************************************
+INDEX: SECTORS
+*************************************************************/
+
+.sector-parent {
+  display: table;
+  height: 85vh;
+}
+
+.sector-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sector-parent-left {
+  float: left;
+  width: 60%;
+}
+.sector-parent-right {
+  width: 40%;
+}
+
+.table-cell-wrapper ul {
+  list-style-type: none;
+  padding: 0;    
+  margin: 0;
+}
+
+.table-cell-wrapper li {
+  float: left;
+  width: calc(100%/2 - 1px);
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.table-cell-wrapper figure {
+  margin: 0 0 20px 0;
+}
+
+.table-cell-wrapper img {
+  max-width: 60px;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.table-cell-wrapper h5 {
+  text-align: center;
+  padding: 10px;
+}
+.table-cell-wrapper a {
+  color: darkslategrey;
+  transition: .3s;
+}
+.table-cell-wrapper a:hover h5 {
+  background: white;
+  color: orange;
+}
+
+/* new stuff that works */
+
+.sectorInfo p {
+  text-align: left;
+  font-size: 1vw;
+  color: darkslategrey
+}
+  
+  margin: 0;
+  line-height: 200%;
+}
+
+.sectorInfo2 {
+  font-size: 6em
+}
+
+.sectorInfo button {
+  margin-top: 20px
+}
+
+.sectorInfo button a {
+  background: white;
+  color: orange;
+  padding: 17px 60px;
+  border: 1px solid white;
+  transition: .5s;
+}
+
+.sectorInfo button a:hover {
+  background: orange;
+  color: white;
+  border: 1px solid white;
+}
+
+#header-container {
+  top:10%;
+  left:50%;
+  color:white;
+  position:absolute;
+  text-align:center;
+  margin: -25px 0 0 -60px;
+}
+
+#header-container h2 {
+  color: white;
+  margin: auto;
+}
+
+
+/* Sector Links */
+
+#sectors-title {
+  text-align: center;
+  color: white;
+}
+
+#sector-about {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  padding-top: 55px;
+}
+
+#sector-about button {
+/*  background: white;*/
+}
+
+#sector-about button a {
+  background: white;
+  color: orange;
+  padding: 17px 60px;
+  border: 1px solid white;
+  transition: .5s;
+}
+
+#sector-about button a:hover {
+  background: orange;
+  color: white;
+  border: 1px solid white;
+}
+
+/*
+#sector-links {
+  display: inline-block;
+  float: right;
+}
+
+#sector-links p {
+  display: inline-block;
+  background: white;
+  color: orange;
+  text-align: center;
+  font-weight: bold;
+  width: 49.6%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: -13px;
+}
+*/
+
+/* sector links */
+
+#sector-links {
+  display: inline-block;
+  width: 50%;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+#sector-links a {
+  width: 100%;
+}
+
+/*
+#sector-links a:hover h5 {
+  background: white;
+  color: orange;
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  box-sizing: border-box;
+}
+*/
+
+#sector-links figure {
+  display: inline-block;
+  margin-left: 20%;
+  width: 1%;
+}
+
+#sector-links img {
+  height: 40px;
+  width: 40px;
+  max-width: 60px;
+  object-fit: contain;
+/*  padding: 0;*/
+  margin: 0 auto;
+  min-height: initial !important;
+  max-height: none !important;
+}
+
+#sector-links div {
+  display: inline-block;
+  width: 20%;
+  margin-left: 35%;
+  vertical-align: top;
+}
+
+#sector-links h5 {
+  text-align: center;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+
+
+/************************************************************
+INDEX:SECTORS:SECTOR PAGES
+*************************************************************/
+
+/****************************************************
+INDEX:SECTORS:SECTOR PAGES:PAGE STYLING
+*****************************************************/
+
+.sector-page {
+  height: 100vh;
+}
+
+
+
+/****************************************************
+INDEX:SECTORS:SECTOR PAGES:PAGE STYLING:COLOURS
+*****************************************************/
+
+/* Button hover */
+#sector-page-wrapper button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+
+
+/* Wording */
+
+.sector-page {
+  color: white;
+}
+
+
+
+/* Finance */
+#sector-finance,
+#sector-finance select,
+#sector-finance button:hover {
+  background: lightgreen;  
+}
+#sector-finance a:hover,
+#sector-finance a:focus,
+#sector-finance .selected,
+#sector-finance button {
+  color: lightgreen;
+}
+#sector-finance button {
+  border: 1px solid lightgreen;
+}
+
+
+
+/* Energy */
+#sector-energy,
+#sector-energy select,
+#sector-energy button:hover {
+  background: lightblue;  
+}
+#sector-energy a:hover,
+#sector-energy a:focus,
+#sector-energy .selected,
+#sector-energy button {
+  color: lightblue;
+}
+#sector-energy button {
+  border: 1px solid lightblue;
+}
+
+
+
+/* Digital */
+#sector-digital,
+#sector-digital select,
+#sector-digital button:hover {
+  background: pink;  
+}
+#sector-digital a:hover,
+#sector-digital a:focus,
+#sector-digital .selected,
+#sector-digital button {
+  color: pink;
+}
+#sector-digital button {
+  border: 1px solid pink;
+}
+
+
+
+/* Commerce */
+#sector-commerce,
+#sector-commerce select,
+#sector-commerce button:hover {
+  background: lightgrey;  
+}
+#sector-commerce a:hover,
+#sector-commerce a:focus,
+#sector-commerce .selected,
+#sector-commerce button {
+  color: grey;
+}
+#sector-commerce button {
+  border: 1px solid lightgrey;
+}
+
+
+
+/****************************************************
+INDEX:SECTORS:SECTOR PAGES:SECTOR NAVIGATION
+*****************************************************/
+
+/* return to homepage sectors */
+.sector-return:before {
+  content: '< ';
+  font-weight: bold;
+}
+.sector-nav {
+  margin: 0;
+  font-size: 20px;
+}
+.sector-nav li {
+  display: inline-block;
+}
+.sector-nav li:after {
+  content: ' /';
+  font-weight: bold;
+  font-size: 30px;
+}
+.sector-nav a {
+  padding: 5px;
+  transition: .3s;
+}
+.sector-nav a:not(.selected) {
+  color: white;
+}
+.sector-nav a:hover,
+.selected {
+  background: white;
+  text-decoration: none;
+}
+
+
+
+/*********************************************
+INDEX:SECTORS:SECTOR PAGES:INFO STYLING
+**********************************************/
+
+.sector-page-info {
+  display: inline-block;
+  float: left;
+  height: 100vh;
+  width: 70%;
+  padding: 6vw;
+}
+
+.sector-page-info h2 {
+  font-size: 4em;
+  padding: 0;
+  margin: 20px 0 20px 0;
+}
+
+
+
+/****************************************************
+INDEX:SECTORS:SECTOR PAGES:SECTOR INFO FORM
+*****************************************************/
+
+.sector-form select {
+  color: white;
+  font-size: 2.5em;
+  border: none;
+  border-bottom: 3px solid white;
+}
+.sector-form select:focus {
+  outline: none;
+}
+.sector-form select:hover {
+  cursor: pointer;
+}
+.sector-form option {
+  border: none;
+}
+
+.sector-form h4 {
+  display: inline-block;
+  font-size: 2.5em;
+  margin: 0 0 30px 10px;
+}
+
+
+
+/****************************************************
+INDEX:SECTORS:SECTOR PAGES:SECTOR FORM UL
+*****************************************************/
+
+.sector-form ul a {
+  display: block;
+  padding: 18px 0 18px 0;
+  transition: .3s;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sector-form ul a:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.sector-form ul div {
+  display: inline-block;
+  font-size: 1.2em;
+  text-align: center;
+  width: 33.026%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.sector-form button {
+  background: white;
+  padding: 20px 90px;
+  border: none;
+  transition: .3s;
+}
+.sector-form button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+
+
+/****************************************************
+INDEX:SECTORS:SECTOR PAGES:RIGHT SECTOR IMAGE
+*****************************************************/
+
+.sector-image {
+  display: inline-block;
+  background: #f9f9f9 url('../img/pic2.jpeg') no-repeat right;
+  background-size: cover;
+  height: 100vh;
+  width: 30%;
+  position: absolute;
+}
+
+
+
+/************************************************************
+INDEX: ABOUT US
+*************************************************************/
+
+#about-us {
+  background: #bfbfbf;
+  color: white;
+}
+
+#about-us-title {
+  text-align: center;
+}
+
+#about-us p {
+  line-height: 40px;
+  font-size: 1em;
+}
+
+#about-us div {
+  margin-top: 3%;
+}
+
+/************************************************************
+INDEX: WHAT MAKES US DIFFERENT
+*************************************************************/
+
+#different h2 {
+  color: orange;
+  text-align: center;
+}
+
+#different p {
+  color: darkslategrey;
+  line-height: 50px;
+  font-size: 1em;
+}
+
+#different div {
+  margin-top: 3%;
+}
+
+
+
+/************************************************************
+INDEX: MEET THE TEAM
+*************************************************************/
+
+.white-background p {
+  color: #575757;
+}
+
+#meetTheTeam h2 {
+  text-align: center;
+}
+
+
+/************************************************************
+INDEX: CONTACT US/NEWSLETTER/LATEST NEWS SECTION
+*************************************************************/
+
+#address,
+#newsletter,
+#news {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+/*  text-align: center;*/
+}
+
+#address h2,
+#newsletter h2,
+#news h2 {
+  color: white;
+  text-align: center;
+} 
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper ul {
+  display: inline-block;
+}
+
+#newsletter legend {
+  margin-bottom: 10px;
+/*  text-align: left;*/
+}
+
+.indexFooter legend {
+  color: white;
+}
+
+#newsletter input {
+  display: inline-block;
+  border: 1px solid white;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: .5s;
+}
+.indexFooter input {
+  background: #bfbfbf;
+}
+
+#newsletter input:focus {
+  background: white;
+  color: #bfbfbf;
+}
+
+#newsletter button {
+  background: white;
+}
+
+#newsletter button a {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid white;
+  transition: .5s;
+}
+.indexFooter button a {
+  color: #bfbfbf;
+}
+
+#newsletter button a:hover {
+  color: white;
+  border: 1px solid white;
+}
+.indexFooter button a:hover {
+  background: #bfbfbf;
+}
+
+.twitter-timeline {
+  display: block;
+  height: 10px;
+}
+
+/* Placeholder Text Colour */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    transition: 1s;
+}
+input:focus::placeholder {
+  color: #bfbfbf;
+    transition: 1s;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    transition: 1s;
+}
+input:focus:-ms-input-placeholder {
+  color: #bfbfbf;
+    transition: 1s;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    transition: 1s;
+}
+input:focus::-ms-input-placeholder { /* Microsoft Edge */
+    color: #bfbfbf;
+    transition: 1s;
+}
+
+/*
+#contact {
+	padding: 0;
+	margin: 0;
+}
+*/
+
+#contact li {
+	list-style: none;
+	padding: 5px 0;
+	font-size: 16px;
+	text-align: left;
+}
+#contact li {
+  white-space: nowrap;
+}
+.indexFooter #contact li {
+  color: white;
+}
+
+#contact a {
+	text-decoration: none;
+  transition: .3s;
+}
+.indexFooter #contact a {
+  color: white;
+}
+.indexFooter #contact a:hover {
+  color: darkslategrey;
+}
+
+#footer-wrap {
+  min-height: calc(80vh);
+}
+
+/************************************************************
+FOOTER
+*************************************************************/
+
+.indexFooter {
+  background: #bfbfbf;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
+
+.indexFooter footer small {
+  color: white;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer li {
+  display: inline-block
+}
+.indexFooter footer li:not(:nth-child(3)):after {
+  content: ' |';
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-size: 0.9em;
+}
+footer a:hover {
+  color: darkslategrey;
+}
+
+#news a {
+  display: block;
+  height: 100px;
+  max-height: 10px
+}
+
+
+
+/************************************************************
+EVERY OTHER FOOTER ECCEPT FOR INDEX
+*************************************************************/
+
+.grey {
+  background: #bfbfbf; 
+  height: 50vh;
+  clear: both;
+}
+
+.grey li,
+.grey legend,
+.grey small,
+.grey footer a {
+  color: white;
+}
+
+.grey footer li:not(:nth-child(3)):after {
+  content: ' |';
+  color: white;
+}
+
+.grey [href="tel:0333 733 0365"],
+.grey [href="mailto:info@link-recruitment.co.uk"] {
+  color: white;
+}
+.grey [href="tel:0333 733 0365"]:hover,
+.grey [href="mailto:info@link-recruitment.co.uk"]:hover,
+.grey footer a:hover {
+  color: grey;
+}
+
+.grey input {
+  background: #bfbfbf;
+  border: 1px solid white;
+}
+.grey input::placeholder {
+  color: white;
+}
+.grey input:focus::placeholder {
+  color: #bfbfbf;
+}
+
+.grey button a {
+  color: #bfbfbf;
+}
+.grey button a:hover {
+  background: #bfbfbf;
+}
+
+.grey footer {
+/*  margin-top: 50px;*/
+}
+
+
+/************************************************************
+PAGE: JOB SEARCH
+*************************************************************/
+
+.index-nav {
+  background: orange;
+}
+
+.job-search-page {
+/*  background: orange;*/
+  position: relative;
+  float: left;
+  width: 100vw;
+}
+
+.job-search-inside {
+  width: 80vw;
+  margin: 10vh 0 10vh 10vw;
+}
+
+.job-search-page h2 {
+  margin-top: 100px;
+  color: #f08331;
+  font-size: 3em
+}
+
+/* Search Bar */
+
+#searchBar {
+  margin-bottom: 25px;
+  white-space: nowrap;
+}
+
+#searchBar input {
+  display: inline-block;
+/*  background: orange;*/
+  border: none;
+  border-bottom: 2px solid orange;
+  padding: 1%;
+  margin-bottom: 25px;
+  width: 40%;
+  transition: .3s;
+}
+
+#searchBar input:focus {
+  background: orange;
+}
+
+#searchBar input::placeholder {
+  color: orange;
+}
+
+#searchBar input:focus::placeholder {
+  color: white;
+}
+
+#searchBar button {
+  display: inline-block;
+  background: orange;
+  color: white;
+  padding: 1%;
+  letter-spacing: 2px;
+  width: calc(20% - 6px);
+  border: 1px solid orange;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#searchBar button:hover {
+  background: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+/* Advanced Search Bar */
+
+.advanced-list {
+  display: none;
+}
+
+.advanced-list-inner {
+  display: inline-block;
+  width: 33.33%;
+}
+
+.advanced-list-inner label,
+.advanced-list-inner select {
+  display: block;
+  width: calc(100% - 6px);
+  margin-bottom: 14px;
+}
+
+.advanced-list-inner label {
+  color: #595959;
+  font-size: .9em;
+}
+
+.advanced-list-inner select {
+  display: block;
+  color: orange;
+  border: none;
+  border-bottom: 2px solid orange;
+  padding: 10px;
+}
+.advanced-list-inner select::placeholder {
+  color: orange;
+}
+.advanced-list-inner select:focus::placeholder {
+  color: white;
+}
+
+#advanced-search-click {
+  color: #595959;
+  text-align: center;     
+  margin-top: 10px;
+  padding: 14px 20px 15px 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+#advanced-search-click:hover {
+  opacity: 0.5;
+}
+
+#advanced-search-click i {
+  margin-left: 10px;
+}
+
+
+
+/* Job Posting */
+
+.job-posting li {
+  background: #cccccc;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.job-posting h3 {
+  display: inline-block;
+  color: #fff;
+  float: left;
+  margin: 30px 0px 30px 40px;
+  padding: 0;
+}
+
+.job-posting .site {
+  display: inline-block;
+  float: left;
+  margin-left: 40px;
+  padding: 0;
+  width: 60%;
+}
+
+/* Job Post Div */
+
+.job-posting div {
+  display: inline-block;
+  float: right;
+  border: 2px solid white;
+  width: 30%;
+  margin: 10px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.job-posting button {
+  background: white;
+}
+
+.job-posting button:hover {
+  background: orange;
+}
+
+dt {
+  display: inline-block;
+  font-weight: bold;
+  width: 40%;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+dd {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Job Post Buttons */
+
+#apply-now,
+#read-more.site {
+  background: #a6a6a6;
+  color: white;
+  border: none;
+}
+#apply-now:hover,
+#read-more.site:hover {
+  background: white;
+  color: grey;
+}
+
+#apply-now {
+  padding: 15px;
+  width: 90%;
+  margin: 10px;
+}
+/* Read More Button */
+
+#read-more.site {
+  display: block;
+  font-size: 1em;
+  color: ;
+  padding: 15px;
+  width: 40%;
+  margin-left: 38px
+}
+
+
+
+/************************************************************
+PAGE: ABOUT
+*************************************************************/
+
+.about-us-page,
+.about-us-half-page {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+}
+
+.about-us-page {
+  height: 100vh;
+}
+.about-us-half-page {
+  background: orange;
+  height: 60vh
+}
+
+.about-us-table-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about-us-background {
+  background: #e6e6e6 url('../images/team.jpeg') no-repeat top;
+  background-size: cover;
+}
+
+.about-us-table-wrapper h2 {
+  color: white;
+  font-size: 5em;
+  margin: 0 0 300px 70px;
+}
+
+.about-us-table-wrapper p {
+  color: white;
+  font-size: 2em;
+  margin: 0 300px;
+}
+
+/* Images */
+#about-left-img,
+#about-right-img {
+  height: 60vh;
+  width: 50%;
+  float: left;
+}
+
+#about-left-img {
+  background: #e6e6e6 url('../images/person1.jpeg') no-repeat;
+  background-size: cover;
+}
+#about-right-img {
+  background: #e6e6e6 url('../images/person2.jpeg') no-repeat;
+  background-size: cover;
+}
+
+/* about info section */
+#about-us-info-wrapper {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 150px 0;
+}
+
+#about-us-info-wrapper h3 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+#about-us-info-wrapper div {
+  font-size: 1.5em;
+  line-height: 40px;  
+  letter-spacing: 0.5px;
+}
+
+#about-us-info-wrapper div:not(:nth-child(4)) {
+  margin-bottom: 50px;
+}
+
+#about-us-info-wrapper h4 {
+  display: inline-block;
+  margin: 0;
+}
+#about-us-info-wrapper p {
+  margin-bottom: 0;
+}
+
+
+
+/************************************************************
+PAGE: MEET THE TEAM
+*************************************************************/
+
+body {
+  margin: 0;
+}
+
+/* employee profile pop-out boxes */
+.parent {
+  background: #f5f4f4;
+  display: table;
+  height: 50vh;
+}
+.parentLeft {
+  position: relative;
+  float: left;
+  background: url('../images/meetTeam/pic1.jpeg') no-repeat left top;
+  background-size: cover;
+  width: 40%;
+}
+.parentRight {
+  width: calc(60% + 1px);
+}
+
+.child {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.parent-text {
+  text-align: center;
+}
+
+
+
+/* article info */
+.info {
+  padding: 0 20px 0 20px;
+}
+
+.info h4,
+.info h3 {
+  margin: 0 0 10px 0;
+}
+
+.info h4 {
+  font-weight: normal;
+}
+
+.info a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto 10px auto;
+}
+.info a:hover {
+  background: white;
+}
+
+.employee-info-link-width {
+  width: 100%;
+}
+
+#employee-info-linkedin-width {
+  display: inline-block;
+  float: left;
+  width: calc(20% - 5px);
+  margin-right: 5px;
+}
+
+#employee-info-phone-width {
+  display: inline-block;
+  width: 80%;
+}
+
+.employee-info-wrapper span {
+  color: darkslategrey;
+}
+
+.info,
+.info a {
+  color: darkslategrey;
+}
+
+.info a {
+  border: 2px solid darkslategrey;
+}
+
+
+
+/* After gradient */
+.parentLeft:after  {
+  background: -webkit-linear-gradient(left, rgba(245,244,244,0) 0%, rgba(245,244,244,0.5) 36%, #f5f4f4 75%, #f5f4f4 100%);
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  width: 50px;
+}
+
+/* Close button */
+#btn-close {
+  position: absolute;
+  top: 10px;
+  right: 22px;
+  font-size: 50px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+#btn-close:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+
+/* Meet The Team Hover */
+#meet-the-team-title {
+  margin-top: 100px;
+  font-size: 3em;
+  color: #f08331;
+}
+
+.meetTeam {
+  position: relative;
+}
+
+.employee-info-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  float: left;
+}
+
+.meetTeam img {
+  display: block;
+  max-width: 100%;
+  transition: .3s;
+}
+
+.meetTeam div:hover img {
+  opacity: 0.2;
+}
+
+.employee-info-paragraph-wrapper {
+  position: absolute;
+  font-size: 0.9em;
+  bottom: 10px;
+  padding: 20px
+}
+
+.title,
+.para {
+  visibility: hidden;
+  color: darkslategrey;
+}
+
+.title {
+  display: block;
+  margin-bottom: 10px
+}
+
+.para {
+  font-size: .8em;
+}
+
+.meetTeam div:hover .title,
+.meetTeam div:hover .para {
+  visibility: visible;
+}
+
+
+
+/* Twenty Recruitment copy employee profile */
+
+.employee-profile {
+  width: 100%;
+  text-align: left;
+}
+
+.employee-profile aside {
+  height: 100%;
+}
+
+.employee-profile img {
+}
+
+
+/************************************************************
+PAGE: CONTACT
+*************************************************************/
+
+#contact-us-title {
+  font-size: 3em;
+  margin-bottom: 10px
+}
+
+#contact-main {
+  height: 100vh;
+  color: #575757
+}
+
+/* Left-hand side contact info */
+#talk-follow {
+  float: left;
+}
+
+#contact-main a {
+  color: #575757;
+}
+#contact-main a:hover {
+  opacity: 0.3;
+}
+
+/* FOLLOW SECTION */
+.contact-social a:hover {
+  opacity: 0.3;
+}
+
+.social-icon {
+  display: inline-block;
+  font-size: 1.3em;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #575757;
+  border-radius: 100%;
+  margin-right: 10px;
+  text-align: center;
+  padding: 12px;
+}
+
+/* Contact-form */
+#contact-form {
+  float: right;
+  width: 50%;
+  white-space: nowrap;
+}
+
+#contact-form input,
+#contact-form textarea {
+  box-sizing: border-box;
+}
+
+#contact-form input {
+  padding: 20px;
+  transition: 1s;
+}
+#contact-form input,
+#contact-form textarea {
+  background: white;
+  color: #a6a6a6;
+  border: 1px solid #a6a6a6;
+}
+
+#contact-form textarea {
+  resize: none;
+  padding: 20px;
+  width: 100%;
+  height: 150px;
+}
+
+
+
+/* Focus and placeholder */
+#contact-form input:focus,
+#contact-form textarea:focus {
+/*  background: orange;*/
+/*
+  color: white;
+  border: 1px solid white;
+*/
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a6a6a6;
+    opacity: 1; /* Firefox */
+    transition: 1s;
+}
+#contact-form input:focus::placeholder,
+#contact-form textarea:focus::placeholder {
+/*  color: white;*/
+}
+
+input[name="first_name"],
+input[name="surname"]{
+  display: inline-block;
+  width: 49%;
+}
+
+input[name="first_name"] {
+  margin-right: 2%;
+}
+
+input[name="email_address"] {
+  width: 100%;
+}
+
+input[type="tel"] {
+  width: 100%;
+}
+
+#contact-form button {
+  background: #a6a6a6;
+  color: white;
+  padding: 20px 100px;
+  margin-top: 5px;
+  border: 1px solid #a6a6a6;
+  transition: 0.5s;
+}
+
+#contact-form button:hover {
+  background: white;
+  color: #a6a6a6;
+  border: 1px solid #a6a6a6;
+}
+
+/* footer */
+#contact-footer {
+  background: orange;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* max-width queries */
+@media screen and (max-width: 1195px) {
+  
+  #welcome {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .welcome-form p,
+  .welcome-form select {
+    font-size: 2em;
+  }
+  
+  #welcome button a {
+    font-size: .8em;
+  }
+  
+}
+
+@media screen and (max-width: 1003px) {
+  
+  #headerBar nav ul {
+    font-size: .9em
+  }
+  
+  
+}
+

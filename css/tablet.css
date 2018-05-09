@@ -1,0 +1,1136 @@
+/* HIDE/DISPLAY */
+
+.mobile {
+  display: block;
+}
+
+.site {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+/****************************************************************************
+DEFAULTS
+****************************************************************************/
+
+h2 {
+  text-align: center;
+}
+
+.docScroller {
+  background: orange;
+}
+
+.inside {
+  margin: 10vh auto;
+}
+
+
+/****************************************************************************
+INDEX
+****************************************************************************/
+
+#form_block {
+  color: white;
+}
+
+/****************************************************************************
+NAVIGATION
+****************************************************************************/
+
+/*
+#secretNav {
+  background: red;
+  color: white;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+}
+*/
+
+#headerBar {
+  height: 80px
+}
+
+#headerBar {
+	width: 100%;
+	padding: 25px;
+	position: fixed;
+	z-index: 1;
+}
+
+#headerBar nav a {
+  color: white;
+}
+#headerBar nav a:hover {
+  border-bottom: 2px solid white;
+}
+.main-selected {
+  border-bottom: 2px solid white;
+}
+
+#home {
+/*  position: relative;*/
+}
+
+#headerBar:hover nav {
+/*	top: 0;*/
+}
+
+#headerBar nav ul li {
+	font-weight: bold;
+}
+
+#form_block {
+  color: white;
+}
+
+
+
+/****************************************************************************
+NAVIGATION: SIDE NAV
+****************************************************************************/
+
+.open-slide svg {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  -webkit-backface-visibility: hidden;
+}
+.open-slide svg:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+/*  opacity: 0.9;*/
+  overflow-x: hidden;
+  text-align: center;
+  transition: 0.5s;
+  padding-top: 90px;
+}
+
+.side-nav a {
+  display: block;
+  background: #a6a6a6;
+  color: white;
+  padding: 15px;
+  transition: .3s;
+  margin: 0 auto 5px;
+  transition: .3s;
+  width: 95%
+}
+.side-nav a:hover {
+  background: white;
+  color: darkslategrey;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn-close {
+  color: #a6a6a6;
+}
+.btn-close:hover {
+  color: darkslategrey;
+  cursor: pointer;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 36px;
+}
+
+
+
+
+
+
+
+/****************************************************************************
+INDEX:TITLE
+****************************************************************************/
+
+/*
+.container {
+  display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+  z-index: 100;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+  width: 47.5%;
+  margin-right: 5%;
+  z-index: 100;
+}
+*/
+
+
+/****************************************************************************
+INDEX: WELCOME SECTION
+****************************************************************************/
+
+.welcome-parent {
+  display: table;
+  width: 80%;
+  margin: auto;
+}
+
+.welcome-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#welcome {
+  text-align: center;
+}
+
+#welcome-title {
+  font-size: 7vw;
+  margin: 0;
+  
+}
+
+.welcome-form select {
+  width: 100%;
+  padding: 4%
+}
+
+.welcome-form button,
+.welcome-form button a {
+  width: 100%;
+}
+
+.welcome-form button {
+  margin-top: 20px;
+}
+
+.welcome-form button a {
+  background: orange;
+  padding: 4%;
+  transition: .3s;
+  border: 1px solid white;
+}
+
+.welcome-form button a:hover {
+  background: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+/****************************************************************************
+INDEX: SECTORS
+****************************************************************************/
+
+#header-container h2 {
+  color: white;
+}
+
+/* button */
+
+#sectors button {
+  display: block;
+  width: 50%;
+}
+#sectors button a {
+  background: white;
+  color: orange;
+  padding: 7%;
+  width: 100%;
+  transition: .3s;
+  border: 1px solid orange;
+}
+#sectors button a:hover {
+  background: orange;
+  color: white;
+  border: 1px solid white;
+}
+
+/* sector links */
+
+#sector-links {
+  width: 100%;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+#sector-links a {
+  width: 100%;
+}
+
+#sector-links figure {
+  display: inline-block;
+  width: 1%;
+}
+
+#sector-links img {
+  height: 40px;
+  width: 40px;
+  max-width: 60px;
+  object-fit: contain;
+/*  padding: 0;*/
+  margin: 0 auto;
+  min-height: initial !important;
+  max-height: none !important;
+}
+
+#sector-links div {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+}
+
+#sector-links h5 {
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+.mobile a:hover h5 {
+  background: white;
+  color: orange;
+}
+
+
+/****************************************************************************
+INDEX: ABOUT
+****************************************************************************/
+
+/****************************************************************************
+INDEX: DIFFERENT
+****************************************************************************/
+
+#different h2 {
+  color: white;
+}
+
+/****************************************************************************
+INDEX: MEET THE TEAM
+****************************************************************************/
+
+#meetTheTeam img {
+  width: 50%;
+  margin: 0 auto 10px;
+}
+
+/* sector links */
+
+#meetTheTeam-links {
+  width: 100%;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+#meetTheTeam-links a {
+  width: 100%;
+}
+
+#meetTheTeam-links figure {
+  display: inline-block;
+  width: 1%;
+}
+
+#meetTheTeam-links img {  
+  height: 100px;
+  width: 100px;
+/*  max-width: 100px;*/
+  object-fit: contain;
+  padding: 0;
+  margin: 0 auto;
+  min-height: initial !important;
+  max-height: none !important;
+}
+
+#meetTheTeam-links div {
+  display: inline-block;
+  color: black;
+  width: 70%;
+  vertical-align: top;
+}
+
+#meetTheTeam-links h5 {
+  text-align: center;
+  margin-top: 60px
+}
+
+#meetTheTeam-links p {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 30px
+}
+
+/****************************************************************************
+INDEX: CONTACT
+****************************************************************************/
+
+/* Address */
+
+#address {
+}
+
+#address ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#address [href="tel:0333 733 0365"]  {
+  margin-top: 10px;
+}
+
+.orange [href="tel:0333 733 0365"],
+.orange [href="mailto:info@link-recruitment.co.uk"] {
+  color: black;
+}
+.orange [href="tel:0333 733 0365"]:hover,
+.orange [href="mailto:info@link-recruitment.co.uk"]:hover {
+  color: white;
+}
+
+
+
+/********** Newsletter *****************/
+
+.orange h2 {
+  color: white;
+}
+
+#newsletter legend {
+  text-align: center;
+}
+
+#newsletter ul {
+  padding: 0;
+}
+
+#newsletter li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#newsletter input {
+  display: block;
+  margin: auto;
+  width: 80%;
+/*  min-width: 310px;*/
+  max-width: 400px;
+  padding: 10px;
+}
+.indexFooter input {
+  background: #a6a6a6;
+  border: 1px solid white;
+}
+
+.indexFooter input:focus {
+  background: white;
+  color: white;
+  border: 1px solid white;
+}
+
+#newsletter input::placeholder {
+  transition: .3s;
+}
+.indexFooter input::placeholder {
+  color: white;
+}
+.indexFooter input:focus::placeholder {
+  background: white;
+  color: #a6a6a6;
+}
+
+#newsletter button {
+  display: block;
+  margin: auto;
+  width: 80%;
+/*  min-width: 310px;*/
+  max-width: 400px;
+  background: white;
+}
+
+#newsletter button a {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+}
+.orange button a {
+  color: orange;
+}
+
+#newsletter button a:hover {
+  color: white;
+  border: 1px solid white;
+}
+.orange button a:hover {
+  background: orange;
+}
+
+
+/****************************************************************************
+INDEX: FOOTER
+****************************************************************************/
+
+.indexFooter {
+  background: #a6a6a6;
+  color: white;
+}
+
+.indexFooter #contact a,
+.indexFooter footer a {
+  color: white;
+}
+.indexFooter #contact a:hover,
+.indexFooter footer a:hover {
+  color: darkslategrey;
+}
+
+.indexFooter button a {
+  color: #a6a6a6;
+}
+.indexFooter button a:hover {
+  background: #a6a6a6;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
+
+.orange small {
+  color: #575757;
+}
+
+footer nav {
+/*  background: orange;*/
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+}
+footer li {
+  display: inline-block;
+}
+footer li:not(:nth-child(3)):after {
+  content: ' |';
+}
+
+.orange footer a {
+  color: #575757;
+  font-size: 0.9em;
+}
+.orange footer a:hover {
+  color: white;
+}
+
+#news a {
+  display: block;
+  height: 100px;
+  max-height: 10px
+}
+
+
+
+/****************************************************************************
+EVERY OTHER FOOTER
+****************************************************************************/
+
+.grey,
+.grey small,
+.grey footer a {
+  background: #a6a6a6;
+  color: white;
+}
+
+.grey [href="tel:0333 733 0365"],
+.grey [href="mailto:info@link-recruitment.co.uk"] {
+  color: white;
+}
+.grey [href="tel:0333 733 0365"]:hover,
+.grey [href="mailto:info@link-recruitment.co.uk"]:hover,
+.grey footer a:hover {
+  color: grey;
+}
+
+.grey input {
+  background: #a6a6a6;
+  border: 1px solid white;
+}
+.grey input::placeholder {
+  color: white;
+}
+.grey input:focus::placeholder {
+  color: #a6a6a6;
+}
+
+.grey button a {
+  color: #a6a6a6;
+}
+.grey button a:hover {
+  background: #a6a6a6;
+}
+
+.grey footer {
+  margin-top: 50px;
+}
+
+
+
+/************************************************************
+PAGE: ABOUT
+*************************************************************/
+
+/************************************************************
+PAGE: ABOUT
+*************************************************************/
+
+.about-us-page,
+.about-us-half-page {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+}
+
+.about-us-page {
+  height: 100vh;
+}
+.about-us-half-page {
+  background: #e6e6e6;
+  height: 100vh;
+}
+
+.about-us-table-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about-us-background {
+  background: #e6e6e6 url('../images/team.jpeg') no-repeat left 37% top;
+  background-size: cover;
+}
+
+.about-us-table-wrapper h2 {
+  color: darkslategrey;
+  font-size: 5em;
+  margin-bottom: 300px;
+}
+
+.about-us-table-wrapper p {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 2em;
+  margin: 0 30px;
+}
+
+/* Images */
+#about-left-img,
+#about-right-img {
+  display: block;
+  height: 60vh;
+  width: 100%;
+  float: left;
+}
+
+#about-left-img {
+  background: #e6e6e6 url('../images/person1.jpeg') no-repeat right center;
+  background-size: cover;
+}
+#about-right-img {
+  background: #e6e6e6 url('../images/person2.jpeg') no-repeat right top;
+  background-size: cover;
+}
+
+/* about info section */
+#about-us-info-wrapper {
+  text-align: center;
+  display: block;
+  clear: both;
+  margin: 0 30px;
+  max-width: 1000px;
+  padding: 150px 0;
+}
+
+#about-us-info-wrapper h3 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+#about-us-info-wrapper h4,
+#about-us-info-wrapper div {
+  font-size: 1em;
+}
+
+#about-us-info-wrapper div {
+  line-height: 40px;  
+  letter-spacing: 0.5px;
+}
+
+#about-us-info-wrapper div:not(:nth-child(4)) {
+  margin-bottom: 50px;
+}
+
+#about-us-info-wrapper h4 {
+  display: inline-block;
+  margin: 0;
+}
+#about-us-info-wrapper p {
+  margin-bottom: 0;
+}
+
+
+
+/****************************************************************************
+PAGE: JOB SEARCH
+****************************************************************************/
+
+.orange-nav {
+  background: orange;
+}
+
+.job-search-page {
+  position: relative;
+  float: left;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.job-search-inside {
+  margin: 10vh 4vw;
+}
+
+.job-search-page h2 {
+  margin-top: 100px;
+  color: #f08331;
+}
+
+
+
+
+/* Search Bar */
+#searchBar {
+  margin-bottom: 25px;
+  white-space: nowrap;
+}
+
+#searchBar input {
+  display: block;
+  border: none;
+  border-bottom: 2px solid orange;
+  padding: 4%;
+  margin-bottom: 25px;
+  width: 100%;
+  transition: .3s;
+}
+
+#searchBar input:focus {
+  background: orange;
+}
+
+#searchBar input::placeholder {
+  color: orange;
+}
+
+#searchBar input:focus::placeholder {
+  color: white;
+}
+
+#searchBar button {
+  display: inline-block;
+  background: orange;
+  color: white;
+  padding: 4%;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  width: 100%;
+  border: 1px solid orange;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#searchBar button:hover {
+  background: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+
+
+/* Advanced Search Bar */
+.advanced-list {
+  display: none;
+}
+
+.advanced-list-inner {
+  display: block;
+  width: 100%;
+}
+
+.advanced-list-inner label,
+.advanced-list-inner select {
+  display: block;
+  width: 100%;
+}
+.advanced-list-inner label {
+  margin-bottom: 14px;
+}
+.advanced-list-inner select {
+  padding: 4%;
+  margin-bottom: 25px;
+}
+
+.advanced-list-inner label {
+  color: #595959;
+  font-size: .9em;
+}
+
+.advanced-list-inner select {
+  display: block;
+  color: orange;
+  border: none;
+  border-bottom: 2px solid orange;
+  padding: 10px;
+}
+.advanced-list-inner select::placeholder {
+  color: orange;
+}
+.advanced-list-inner select:focus::placeholder {
+  color: white;
+}
+
+#advanced-search-click {
+  color: #595959;
+  text-align: center;     
+  margin-top: 10px;
+  padding: 14px 20px 15px 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+#advanced-search-click:hover {
+  opacity: 0.5;
+}
+
+#advanced-search-click i {
+  margin-left: 10px;
+}
+
+
+
+/* Job Posting */
+.job-posting {
+  padding: 0px;
+}
+
+.job-posting li {
+  background: #cccccc;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.job-posting h3 {
+  color: #fff;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.job-posting p {
+/*  padding: 0;*/
+}
+
+
+
+/* Read More Button */
+#read-more {
+  font-size: 1em;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+
+
+/* Job Post Div */
+.job-posting div {
+  display: block;
+  float: right;
+/*  border: 2px solid white;*/
+/*  width: 30%;*/
+/*  margin: 10px;*/
+  overflow: auto;
+  padding: 10px;
+}
+
+.job-posting dt {
+/*  float: left;*/
+}
+
+.job-posting dt,
+.job-posting dd {
+/*  display: inline-block;*/
+  border-bottom: 1px solid white;
+  width: 50%;
+}
+
+.job-posting button {
+  background: white;
+}
+
+.job-posting button:hover {
+  background: orange;
+}
+
+dt {
+  display: inline-block;
+  font-weight: bold;
+  width: 40%;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+dd {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Job Post Buttons */
+#apply-now,
+#read-more {
+  background: #a6a6a6;
+  color: white;
+  border: none;
+}
+#apply-now:hover,
+#read-more:hover {
+  background: white;
+  color: grey;
+}
+
+#apply-now {
+  padding: 15px;
+  width: 100%;
+}
+
+/****************************************************************************
+PAGE: MEET THE TEAM
+****************************************************************************/
+
+#meet-the-team-title {
+  margin-bottom: 50px;
+}
+
+/* Meet The Team hover */
+.employee-info-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.meetTeam img {
+  width: 100%;
+  display: block;
+  transition: .3s;
+  margin-bottom: 10px;
+}
+
+.meetTeam div:hover img {
+  opacity: 0.2;
+}
+
+.employee-info-paragraph-wrapper {
+  position: absolute;
+  bottom: 30px;
+  padding: 30px
+}
+
+.title {
+  display: block;
+  margin-bottom: 10px
+}
+
+.para {
+  font-size: .8em;
+}
+
+.title,
+.para {
+  visibility: hidden;
+}
+.meetTeam div:hover .title,
+.meetTeam div:hover .para {
+  visibility:visible;
+}
+
+
+
+/* employee profile pop-out */
+.info {
+  background: #f5f4f4;
+  position: relative;
+  padding: 15px;
+  margin-top: -13px;
+}
+
+.info h3,
+.info h4 {
+  margin: 0;
+}
+
+.info h3 {
+  margin-bottom: 10px;
+}
+
+.info h4 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+
+
+/* links  */
+.info a {
+  display: block;
+  text-align: center;
+  font-size: .9em;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+.info a:hover {
+  background: lightgrey;
+  color: ;
+}
+
+
+
+/* Close button */
+#btn-close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 40px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+#btn-close:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+/****************************************************************************
+PAGE: CONTACT
+****************************************************************************/
+
+#contact-us-title {
+  font-size: 3.5em;
+    text-align: left;
+}
+
+#contact-main h3 {
+/*  color: #661a00;*/
+}
+
+#contact-main ul {
+  padding: 0;
+  line-height: 30px
+}
+
+#contact-main a {
+  color: black;
+}
+#contact-main a:hover {
+  color: grey;
+}
+
+/* FOLLOW SECTION */
+.contact-social a:hover {
+  opacity: 0.3;
+}
+
+.social-icon {
+  display: inline-block;
+  font-size: 1.3em;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 100%;
+  margin-right: 10px;
+  text-align: center;
+  padding: 12px;
+}
+
+/* Contact form */
+#contact-form {
+/*
+  width: 90%;
+  margin: auto;
+  text-align: center;
+*/
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  width: 100%;
+  resize: none;
+  border: 1px solid grey;
+}
+
+#contact-form input,
+#contact-form button,
+#contact-form textarea{
+  padding: 15px;
+}
+
+#contact-form input {
+  margin-bottom: 10px;
+}
+
+#contact-form textarea {
+  height: 250px
+}
+
+#contact-form button {
+  background: grey;
+  color: white;
+}
+
+#contact-form button:hover {
+  background: white;
+  color: grey;
+  border: 1px solid grey;
+}
+
+
+
+
